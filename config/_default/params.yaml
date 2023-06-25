@@ -5,8 +5,8 @@ mainSections:
 
 # titleSeparator: | # Title separator. Default to -.
 
-description: An extreme fast, responsive and feature-rich blog theme for Hugo
-keywords: Hugo, Bootstrap, Blog Theme
+description: AI相关内容以及其他产品整理展示
+keywords: AI, AI进行时
 # images:
 #   - site-feature-image.jpg
 
@@ -14,8 +14,9 @@ keywords: Hugo, Bootstrap, Blog Theme
 # metaRobots:  # disable Meta Tag robots
 
 # logo: images/logo.png # Logo image. Default to images/logo.webp.
-# logo: false # Disable Logo
-brand: HBS
+logo: false # Disable Logo
+brand: AI
+carousel: false #首页图片
 
 palette: purple # Default palette. Optional. You'll need to clear the browser cache after modifying this.
 # Available palettes. Default to ALL. Empty array means disable.
@@ -49,10 +50,10 @@ googleAdsense:
 # breadcrumb: false # Disable breadcrumb
 # breadcrumbDivider: > # Breadcrumb divider
 # diagram: true
-# socialShare: false # disable social network sharing
+socialShare: false # disable social network sharing
 # searchBar: false # disable search-bar
 
-# poweredBy: false # Whether to show powered by.
+poweredBy: true # Whether to show powered by.
 
 # readingTime: false # Whether to display the reading time.
 # postDate: false # Whether to display the post date in the post meta section.
@@ -83,7 +84,7 @@ titleCase: true # Capitalized title.
 viewer: true # Image Viewer
 
 # backgroundImage: ['/images/bg-light.png', '/images/bg-dark.png']
-# rss: home # link the RSS button to homepage all the times.
+rss: false # link the RSS button to homepage all the times.
 
 sidebar:
   # fixed: true
@@ -105,7 +106,7 @@ codeBlock:
 post:
   # excerpt: description
   # excerptMaxLength: 120
-  # copyright: false # Whether to display copyright section on each post.
+  copyright: false # Whether to display copyright section on each post.
   # plainifyExcerpt: false # Format excerpt in HTML if false.
   featuredImage: true # Show the featured image above the content.
   numberifyHeadings: true # Count headings automatically.
@@ -125,7 +126,7 @@ archive:
   # dateFormat: 01-02 # Archive date format. Default to Jan 2.
 
 analytics:
-  # baidu:  # Baidu Analytics
+  baidu: "46be9b0a8dedf6004baa8762bf4052a8" # Baidu Analytics
 
 # Site verification
 siteVerification:
@@ -143,10 +144,10 @@ creativeCommons:
   # nd: true # No derivatives or adaptations of your work are permitted.
   # sa: true # Adaptations must be shared under the same terms.
 
-utterances:
-  repo: razonyang/hugo-theme-bootstrap-skeleton # Replace with your repository.
-  #issueTerm: pathname # pathname, url, title, og:title
-  label: comment
+# utterances:
+#   repo: razonyang/hugo-theme-bootstrap-skeleton # Replace with your repository.
+#   #issueTerm: pathname # pathname, url, title, og:title
+#   label: comment
   # By default, light and dark mode correspond to github-light and github-dark, respectively.
   # Optional values: github-light, github-dark, preferred-color-scheme, github-dark-orange, icy-dark, dark-blue, photon-dark.
   #theme:  
@@ -185,9 +186,9 @@ search:
   # indexName: ""
   # debug: true
 
-reward:
-  alipay: images/reward/alipay.png
-  wechat: images/reward/wechat.png
+# reward:
+#   alipay: images/reward/alipay.png
+#   wechat: images/reward/wechat.png
   #paypal: images/reward/paypal.png
   #patreon: images/reward/patreon.png
   #liberapay: images/reward/liberapay.png
@@ -198,6 +199,7 @@ reward:
 #actionsPanel:
   # disabled: true
 
+comment: false
 # Comment or remove this settings to disable font size switcher.
 fontSize:
   # extraSmall: .8rem
@@ -208,7 +210,7 @@ fontSize:
 pwa:
   manifest:
     # name:  # Default to site title.
-    short_name: HBS
+    short_name: AI
     # display: fullscreen # Default to standalone.
     # description:  # Default to site description.
     # theme_color: 
@@ -229,21 +231,22 @@ contact:
   # reCaptcha:
     # siteKey: ""
 
-repo:
-  url: https://github.com/razonyang/hugo-theme-bootstrap-skeleton
-  branch: main
+# repo: false
+# repo:
+#   url: ""
+#   branch: main
   # subPath: exampleSite
   # dateFormat: 02/01/2006, 15:04:05 PM
 
 topAppBar:
   social:
-    github: razonyang/hugo-theme-bootstrap
-    patreon: razonyang
-    paypal: razonyang
+    github: xiaozl
+    # patreon: razonyang
+    # paypal: razonyang
 
-#docs:
-  # nav:
-    # expand: true # Expand docs navigations.
+# docs:
+#   nav:
+#     expand: true # Expand docs navigations.
 
 #feeds:
   # content: true

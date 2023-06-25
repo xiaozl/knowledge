@@ -2,9 +2,9 @@
 # type: docs 
 title: {{ replace .Name "-" " " | title }}
 date: {{ .Date }}
-featured: false
-draft: true
-comment: true
+featured: true
+draft: false
+comment: false
 toc: true
 reward: true
 pinned: false

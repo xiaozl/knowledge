@@ -1,30 +1,27 @@
 ---
 # type: docs 
-title: More Image Processing Methods
+title: 内容模板展示信息
 date: 2022-07-08T11:34:47+08:00
 featured: true
 draft: false
-comment: true
+comment: false
 toc: true
-reward: true
-pinned: false
-carousel: true
+reward: true  #打赏
+pinned: true  #置顶内容
+#pinnedWeight: 100 #置顶文章，那么将按照 pinnedWeight 进行降序排序
+# pinnedPost: false # 关闭文章置顶功能
+# pinnedPostCount: 2 # 首页显示的置顶文章的数目
+carousel: false
 series:
   - News
 categories:
   - Image
 tags: 
   - Crop
-  - Fit
-  - Fill
-  - Filters
 authors:
-  - RazonYang
+  - Xiaozl
 images: []
 ---
 
-Since `v1.0.0-alpha.1`, HBS supports much more image processing methods. Such as Crop, Fit and Fill images. You can also apply filters on an image.
 
-<!--more-->
-
-See also [Image Processing](https://hbs.razonyang.com/v1/en/docs/image-processing/).
+    这是整个博客的模版相关内容信息

@@ -1,7 +1,7 @@
 ---
-title: 新闻
+title: 心得
 menu:
   main:
-    weight: 1
+    weight: 3
     pre: '<i class="fas fa-fw fa-newspaper me-1"></i>'
 ---

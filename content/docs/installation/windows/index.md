@@ -11,3 +11,5 @@ tags:
 ---
 
 This guide show you how to install on Windows.
+***
+how to install on windows

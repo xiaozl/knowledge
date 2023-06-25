@@ -1,5 +1,5 @@
 ---
-title: Series
+title: 系列
 menu:
   main:
     parent: blog

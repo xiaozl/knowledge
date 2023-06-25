@@ -1,9 +1,9 @@
 ---
-title: Docs
+title: 文档
 menu:
   main:
-    weight: 1
+    weight: 2
     pre: '<i class="fas fa-fw fa-file me-1"></i>'
 ---
 
-The example of Docs layout.
+>所有操作文档内容
